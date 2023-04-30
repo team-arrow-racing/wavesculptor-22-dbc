@@ -79,10 +79,6 @@ BO_ 137 VoltageRail3V31V9Measurement: 8 WaveSculptor22
  SG_ Supply1V9 : 0|32@1- (1,0) [0|0] "V" Vector__XXX
  SG_ Supply3V3 : 32|32@1- (1,0) [0|0] "V" Vector__XXX
 
-BO_ 138 Reserved0A: 8 WaveSculptor22
- SG_ Reserved0A0 : 0|32@1- (1,0) [0|0] "" Vector__XXX
- SG_ Reserved0A1 : 32|32@1- (1,0) [0|0] "" Vector__XXX
-
 BO_ 139 HeatsinkMotorTempMeasurement: 8 WaveSculptor22
  SG_ MotorTemp : 0|32@1- (1,0) [0|0] "C" Vector__XXX
  SG_ HeatsinkTemp : 32|32@1- (1,0) [0|0] "C" Vector__XXX
@@ -90,10 +86,6 @@ BO_ 139 HeatsinkMotorTempMeasurement: 8 WaveSculptor22
 BO_ 140 DspBoardTempMeasurement: 8 WaveSculptor22
  SG_ DspBoardTemp : 0|32@1- (1,0) [0|0] "C" Vector__XXX
  SG_ ReservedDspBoardTemp : 32|32@1- (1,0) [0|0] "" Vector__XXX
-
-BO_ 141 Reserved0D: 8 WaveSculptor22
- SG_ Reserved0D0 : 0|32@1- (1,0) [0|0] "" Vector__XXX
- SG_ Reserved0D1 : 32|32@1- (1,0) [0|0] "" Vector__XXX
 
 BO_ 142 OdometerBusAhMeasurement: 8 WaveSculptor22
  SG_ Odometer : 0|32@1- (1,0) [0|0] "m" Vector__XXX
@@ -179,14 +171,10 @@ SIG_VALTYPE_ 136 Supply15V : 1;
 SIG_VALTYPE_ 136 ReservedSupply15V : 1;
 SIG_VALTYPE_ 137 Supply1V9 : 1;
 SIG_VALTYPE_ 137 Supply3V3 : 1;
-SIG_VALTYPE_ 138 Reserved0A0 : 1;
-SIG_VALTYPE_ 138 Reserved0A1 : 1;
 SIG_VALTYPE_ 139 MotorTemp : 1;
 SIG_VALTYPE_ 139 HeatsinkTemp : 1;
 SIG_VALTYPE_ 140 DspBoardTemp : 1;
 SIG_VALTYPE_ 140 ReservedDspBoardTemp : 1;
-SIG_VALTYPE_ 141 Reserved0D0 : 1;
-SIG_VALTYPE_ 141 Reserved0D1 : 1;
 SIG_VALTYPE_ 142 Odometer : 1;
 SIG_VALTYPE_ 142 DCBusAh : 1;
 SIG_VALTYPE_ 151 SlipSpeed : 1;
